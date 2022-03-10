@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/giova/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_main.xml" value="0.10960144927536232" />
+        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/btn_fondo_color.xml" value="0.2165" />
+        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/circulo_image.xml" value="0.2165" />
+        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/input.xml" value="0.2165" />
+        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
