@@ -44,7 +44,8 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColorHint="#ccc" />
+            android:textColorHint="#ccc"
+            android:textColor="@color/white"/>
 
         <EditText
             android:id="@+id/contraseña"
@@ -60,7 +61,8 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColorHint="#ccc" />
+            android:textColorHint="#ccc"
+            android:textColor="@color/white"/>
 
         <EditText
             android:layout_width="match_parent"
