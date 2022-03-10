@@ -102,10 +102,12 @@
                 android:textSize="16sp" />
 
             <Button
+                android:id="@+id/creacuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:text="CREAR CUENTA"
+                android:onClick="creacuenta"
                 android:textColor="#fff" />
         </LinearLayout>
 
