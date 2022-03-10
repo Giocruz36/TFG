@@ -76,7 +76,8 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/white"
-            android:textColorHint="#ccc" />
+            android:textColorHint="#ccc"
+            android:inputType="textPassword"/>
 
         <EditText
             android:id="@+id/confir_contraseña_reg"
@@ -93,7 +94,8 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/white"
-            android:textColorHint="#ccc" />
+            android:textColorHint="#ccc"
+            android:inputType="textPassword"/>
 
         <Button
             android:layout_width="match_parent"
