@@ -2,7 +2,9 @@ package com.example.tfg;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
@@ -24,13 +26,15 @@ public class MainActivity extends AppCompatActivity {
         visible.setOnClickListener((View.OnClickListener) v -> {
             if(!esVisible) {
                 password.setTransformationMethod(PasswordTransformationMethod.getInstance());
-                visible.setImageResource(R.drawable.ojo);
+                visible.setImageResource(R.drawable.ojo_tachado);
                 esVisible = true;
+
             }
             else {
                 password.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
                 esVisible = false;
-                visible.setImageResource(R.drawable.ojo_tachado);
+                visible.setImageResource(R.drawable.ojo);
+
             }
         });
 
