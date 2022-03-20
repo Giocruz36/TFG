@@ -64,8 +64,8 @@
                 android:paddingTop="10dp"
                 android:paddingRight="10dp"
                 android:paddingBottom="10dp"
-                android:textColorHint="#ccc"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:textColorHint="#ccc" />
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
@@ -97,6 +97,20 @@
             android:elevation="5dp"
             android:text="Inicio de sesion"
             android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/prueba"
+            android:backgroundTint="@color/white"
+            android:elevation="5dp"
+            android:text="Continuar con Google"
+            android:drawableLeft="@drawable/google"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <LinearLayout
