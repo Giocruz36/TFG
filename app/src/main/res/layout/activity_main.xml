@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scaleType="centerCrop"
         android:src="@drawable/fondopantalla"
-        android:scaleType="centerCrop" />
+        tools:ignore="ContentDescription" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,7 +29,8 @@
             android:layout_marginBottom="70dp"
             android:background="@drawable/circulo_image"
             android:padding="10dp"
-            android:src="@drawable/reloj" />
+            android:src="@drawable/reloj"
+            tools:ignore="ContentDescription,RtlHardcoded" />
 
         <EditText
             android:id="@+id/correo"
@@ -44,8 +46,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
+            android:textColor="@color/white"
             android:textColorHint="#ccc"
-            android:textColor="@color/white"/>
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -65,15 +69,18 @@
                 android:paddingRight="10dp"
                 android:paddingBottom="10dp"
                 android:textColor="@color/white"
-                android:textColorHint="#ccc" />
+                android:textColorHint="#ccc"
+                tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
                 android:id="@+id/ojo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_alignEnd="@+id/contraseña"
-                android:background="@drawable/ojo"
                 android:layout_marginTop="9dp"
-                android:layout_marginEnd="10dp"/>
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ojo"
+                tools:ignore="ContentDescription" />
 
         </RelativeLayout>
 
@@ -85,7 +92,8 @@
             android:layout_marginBottom="30dp"
             android:gravity="end"
             android:text="¿Olvidaste tu contraseña?"
-            android:textColor="#fff" />
+            android:textColor="#fff"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
 
         <Button
             android:layout_width="match_parent"
@@ -97,21 +105,22 @@
             android:elevation="5dp"
             android:text="Inicio de sesion"
             android:textColor="#fff"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
 
         <Button
+            android:id="@+id/google"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginBottom="30dp"
-            android:background="@drawable/prueba"
-            android:backgroundTint="@color/white"
+            android:background="@drawable/btn_color_fondo2"
+            android:drawableLeft="@drawable/google"
             android:elevation="5dp"
             android:text="Continuar con Google"
-            android:drawableLeft="@drawable/google"
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -126,16 +135,19 @@
                 android:layout_height="wrap_content"
                 android:text="¿Aún no tienes contraseña?"
                 android:textColor="#fff"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
 
             <Button
                 android:id="@+id/creacuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
                 android:background="@android:color/transparent"
-                android:text="CREAR CUENTA"
                 android:onClick="creacuenta"
-                android:textColor="#fff" />
+                android:text="CREAR CUENTA"
+                android:textColor="#fff"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
         </LinearLayout>
 
     </LinearLayout>

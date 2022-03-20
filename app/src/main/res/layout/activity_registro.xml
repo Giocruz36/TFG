@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -9,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/fondopantalla"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +27,8 @@
             android:layout_marginBottom="70dp"
             android:background="@drawable/circulo_image"
             android:padding="10dp"
-            android:src="@drawable/reloj" />
+            android:src="@drawable/reloj"
+            tools:ignore="ContentDescription,RtlHardcoded" />
 
         <EditText
             android:id="@+id/nombre"
@@ -42,7 +45,8 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/white"
-            android:textColorHint="#ccc" />
+            android:textColorHint="#ccc"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
 
         <EditText
             android:id="@+id/correo"
@@ -59,7 +63,8 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/white"
-            android:textColorHint="#ccc" />
+            android:textColorHint="#ccc"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -81,7 +86,8 @@
                 android:paddingRight="10dp"
                 android:paddingBottom="10dp"
                 android:textColor="@color/white"
-                android:textColorHint="#ccc" />
+                android:textColorHint="#ccc"
+                tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
 
             <ImageView
                 android:layout_width="25dp"
@@ -90,7 +96,8 @@
                 android:layout_alignEnd="@+id/contraseña_reg"
                 android:background="@drawable/ojo"
                 android:layout_marginTop="9dp"
-                android:layout_marginEnd="10dp"/>
+                android:layout_marginEnd="10dp"
+                tools:ignore="ContentDescription" />
 
         </RelativeLayout>
 
@@ -114,7 +121,8 @@
                 android:paddingRight="10dp"
                 android:paddingBottom="10dp"
                 android:textColor="@color/white"
-                android:textColorHint="#ccc" />
+                android:textColorHint="#ccc"
+                tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
 
             <ImageView
                 android:layout_width="25dp"
@@ -123,7 +131,8 @@
                 android:layout_alignEnd="@+id/confir_contraseña_reg"
                 android:background="@drawable/ojo"
                 android:layout_marginTop="9dp"
-                android:layout_marginEnd="10dp"/>
+                android:layout_marginEnd="10dp"
+                tools:ignore="ContentDescription" />
 
         </RelativeLayout>
 
@@ -136,9 +145,10 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/btn_fondo_color"
             android:elevation="5dp"
-            android:text="Registar"
+            android:text="Registrar"
             android:textColor="#fff"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
 
 
     </LinearLayout>
