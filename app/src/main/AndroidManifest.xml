@@ -11,21 +11,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TFG">
         <activity
+            android:name=".Tarjeta_credito"
+            android:exported="false" />
+        <activity
+            android:name=".Subcripcion"
+            android:exported="false" />
+        <activity
+            android:name=".inicio"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name=".Registro"
-            android:label="registro"
-            android:exported="true"/>
-
+            android:exported="true" />
     </application>
 
 </manifest>

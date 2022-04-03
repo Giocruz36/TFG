@@ -24,7 +24,7 @@
         <ImageView
             android:layout_width="114dp"
             android:layout_height="110dp"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="145dp"
             android:layout_marginTop="120dp"
             android:layout_marginBottom="70dp"
             android:background="@drawable/circulo_image"
@@ -106,6 +106,7 @@
             android:text="Inicio de sesion"
             android:textColor="#fff"
             android:textSize="16sp"
+            android:onClick="subcripcion"
             tools:ignore="HardcodedText" />
 
         <Button
