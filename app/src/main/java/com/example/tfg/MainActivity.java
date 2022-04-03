@@ -2,14 +2,11 @@ package com.example.tfg;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
@@ -42,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void creacuenta(View view) {
         Intent i = new Intent(this, Registro.class);
+        startActivity(i);
+    }
+
+    public void subcripcion(View view) {
+        Intent i = new Intent(this, Subcripcion.class);
         startActivity(i);
     }
 }

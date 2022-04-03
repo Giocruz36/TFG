@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemInicio"
+            android:icon="@drawable/home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/itemCursos"
+            android:icon="@drawable/cursos"
+            android:title="Cursos" />
+        <item
+            android:id="@+id/itemCalendario"
+            android:icon="@drawable/calendario"
+            android:title="Calendario" />
+    </group>
+
+    <item android:title="Configuración">
+        <menu>
+            <item
+                android:id="@+id/configuracion"
+                android:icon="@drawable/herramientas"
+                android:title="Ajustes"/>
+        </menu>
+    </item>
+
+    <item android:title="Usuario">
+        <menu>
+            <item
+                android:id="@+id/itemPerfil"
+                android:icon="@drawable/perfil"
+                android:title="Perfil"/>
+            <item
+                android:id="@+id/itemCerrarSesion"
+                android:icon="@drawable/cerrar_sesion"
+                android:title="Cerrar sesiónn"/>
+        </menu>
+    </item>
+</menu>
