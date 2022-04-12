@@ -3,37 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/btn_color_fondo2.xml" value="0.2305" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/btn_color_fondo3.xml" value="0.214" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/btn_fondo_color.xml" value="0.2165" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/circulo_image.xml" value="0.2165" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2305" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/input.xml" value="0.2165" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/prueba.xml" value="0.2305" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/drawable/side_nav_bar.xml" value="0.2305" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/activity_inicio.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/activity_registro.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/activity_reguistro.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/activity_subcripcion.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/activity_tarjeta_credito.xml" value="0.264" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/app_bar_inicio.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/content_inicio.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/layaout_header_drawer.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/layout_header_drawer.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/nav_header_inicio.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/layout/prueba.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/menu/inicio.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/menu/menu_navigation_drawer.xml" value="0.25" />
-        <entry key="..\:/Users/albad/Documents/GitHub/TFG/app/src/main/res/menu/prueba.xml" value="0.25" />
-        <entry key="..\:/Users/giova/OneDrive/Documentos/GitHub/TFG/app/src/main/res/drawable/btn_fondo_color.xml" value="0.184" />
-        <entry key="..\:/Users/giova/OneDrive/Documentos/GitHub/TFG/app/src/main/res/drawable/icon_selector.xml" value="0.184" />
-        <entry key="..\:/Users/giova/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/giova/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_registro.xml" value="0.1" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/drawable/btn_fondo_color.xml" value="0.2595" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout-land/acitivity_main.xml" value="0.2" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout-land/activity_inicio.xml" value="0.1" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout-land/activity_subscripcion.xml" value="0.264" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_inicio.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_registro.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_subcripcion.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_tarjeta_credito.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/layaout_header_drawer.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/menu/menu_navigation_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2595" />
       </map>
     </option>
   </component>

@@ -11,7 +11,7 @@ public class Subcripcion extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_subcripcion);
+        setContentView(R.layout.activity_subscripcion);
     }
 
     public void tarjeta_credito(View view) {
