@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondopantalla"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d8000000"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="114dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/circulo_image"
+            android:padding="10dp"
+            android:src="@drawable/reloj"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/persona"
+            android:hint=" Nombre completo"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ccc"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/correo"
+            android:hint=" Correo electrónico"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ccc"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/contraseña_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/input"
+                android:drawableLeft="@drawable/password"
+                android:hint=" Contraseña"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="#ccc"
+                tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/ojo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignEnd="@+id/contraseña_reg"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ojo"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/confir_contraseña_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/input"
+                android:drawableLeft="@drawable/confirmar"
+                android:hint=" Confirmar contraseña"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="#ccc"
+                tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ojo1"
+                android:layout_alignEnd="@+id/confir_contraseña_reg"
+                android:background="@drawable/ojo"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
+            android:text="Registrar"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</RelativeLayout>

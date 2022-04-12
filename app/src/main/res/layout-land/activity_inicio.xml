@@ -40,7 +40,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/layaout_header_drawer"
+        app:headerLayout="@layout/layout_header_drawer"
         app:menu="@menu/menu_navigation_drawer">
 
     </com.google.android.material.navigation.NavigationView>
