@@ -25,6 +25,8 @@
             android:backgroundTint="@color/white"
             android:onClick="inicio"
             android:text="Escanear"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="208dp"
             android:textColor="@color/black"
             app:cornerRadius="30dp"
             tools:ignore="MissingConstraints" />
