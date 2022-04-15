@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Subcripcion">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondopantalla"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d8000000"
+        android:orientation="horizontal"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="340dp"
+        android:layout_marginLeft="210dp"
+        android:clickable="true"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel"
+                android:backgroundTint="@color/purple_700" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="PREMIUM"
+                android:textSize="18dp"/>
+
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+                android:text="9.99€"
+                android:textSize="20dp"
+                android:background="@drawable/btn_color_fondo3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Todo tipo de cursos"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Todo tipo de cursos"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Todo tipo de cursos"/>
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="85dp"
+                android:gravity="center"
+                android:text="Comprar"
+                android:onClick="tarjeta_credito"
+                android:textSize="12dp"
+                android:background="@drawable/btn_color_fondo3"/>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

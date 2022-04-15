@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:visibility="visible"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
         android:src="@drawable/fondopantalla"
+        android:scaleType="centerCrop"
         tools:ignore="ContentDescription" />
 
     <LinearLayout
@@ -24,8 +22,8 @@
         <ImageView
             android:layout_width="114dp"
             android:layout_height="110dp"
-            android:layout_marginLeft="145dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="125dp"
             android:layout_marginBottom="70dp"
             android:background="@drawable/circulo_image"
             android:padding="10dp"
@@ -33,7 +31,7 @@
             tools:ignore="ContentDescription,RtlHardcoded" />
 
         <EditText
-            android:id="@+id/correo"
+            android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -41,7 +39,25 @@
             android:layout_marginBottom="15dp"
             android:background="@drawable/input"
             android:drawableLeft="@drawable/persona"
-            android:hint=" Correo electronico"
+            android:hint=" Nombre completo"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ccc"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/correo"
+            android:hint=" Correo electrónico"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"
@@ -55,7 +71,7 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/contraseña"
+                android:id="@+id/contraseña_reg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -64,93 +80,76 @@
                 android:background="@drawable/input"
                 android:drawableLeft="@drawable/password"
                 android:hint=" Contraseña"
+                android:inputType="textPassword"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
                 android:paddingRight="10dp"
                 android:paddingBottom="10dp"
                 android:textColor="@color/white"
                 android:textColorHint="#ccc"
-                tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+                tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
 
             <ImageView
-                android:id="@+id/ojo3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/contraseña"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ojo"
+                android:layout_alignEnd="@+id/contraseña_reg"
+                android:background="@drawable/ojo"
                 android:layout_marginTop="9dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/ojo"
                 tools:ignore="ContentDescription" />
 
         </RelativeLayout>
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="25dp"
-            android:layout_marginBottom="30dp"
-            android:gravity="end"
-            android:text="¿Olvidaste tu contraseña?"
-            android:textColor="#fff"
-            tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/confir_contraseña_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/input"
+                android:drawableLeft="@drawable/confirmar"
+                android:hint=" Confirmar contraseña"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="#ccc"
+                tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ojo1"
+                android:layout_alignEnd="@+id/confir_contraseña_reg"
+                android:background="@drawable/ojo"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp"
             android:background="@drawable/btn_fondo_color"
             android:elevation="5dp"
-            android:text="Inicio de sesion"
+            android:text="Registrar"
             android:textColor="#fff"
             android:textSize="16sp"
-            android:onClick="subcripcion"
             tools:ignore="HardcodedText" />
 
-        <Button
-            android:id="@+id/google"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/btn_color_fondo2"
-            android:drawableLeft="@drawable/google"
-            android:elevation="5dp"
-            android:text="Continuar con Google"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            tools:ignore="HardcodedText" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="¿Aún no tienes contraseña?"
-                android:textColor="#fff"
-                android:textSize="16sp"
-                tools:ignore="HardcodedText" />
-
-            <Button
-                android:id="@+id/creacuenta"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:background="@android:color/transparent"
-                android:onClick="creacuenta"
-                android:text="CREAR CUENTA"
-                android:textColor="#fff"
-                tools:ignore="HardcodedText,UsingOnClickInXml" />
-        </LinearLayout>
 
     </LinearLayout>
-
 </RelativeLayout>
