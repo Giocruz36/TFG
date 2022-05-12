@@ -103,10 +103,10 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/btn_fondo_color"
             android:elevation="5dp"
+            android:onClick="subcripcion"
             android:text="Inicio de sesion"
             android:textColor="#fff"
             android:textSize="16sp"
-            android:onClick="subcripcion"
             tools:ignore="HardcodedText" />
 
         <Button

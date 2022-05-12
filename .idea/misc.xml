@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/drawable/botoncito.xml" value="0.2565" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/drawable/btn_fondo_color.xml" value="0.2595" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/drawable/txt_botoncito.xml" value="0.2565" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout-land/acitivity_main.xml" value="0.2" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout-land/activity_inicio.xml" value="0.1" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout-land/activity_main.xml" value="0.1644620811287478" />
@@ -12,9 +14,11 @@
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout-land/activity_tarjeta_credito.xml" value="0.264" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout-land/layout_header_drawer.xml" value="0.1644620811287478" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_inicio.xml" value="0.22735507246376813" />
-        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_memoria.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_registro.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_subcripcion.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_subscripcion.xml" value="0.22010869565217392" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/activity_tarjeta_credito.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/layout/layaout_header_drawer.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/gabri/OneDrive/Documentos/GitHub/TFG/app/src/main/res/menu/menu_navigation_drawer.xml" value="0.25416666666666665" />
